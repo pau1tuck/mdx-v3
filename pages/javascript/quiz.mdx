@@ -1,0 +1,26 @@
+# JavaScript Challenges
+
+## Stage 1
+
+### Concept 1
+
+Consider the following HTML and JavaScript code:
+
+```javascript
+<button id="myButton">Click on this <span style="color: red;">button</span>!</button>
+
+<script>
+  document.getElementById("myButton").addEventListener("click", (event) => {
+    alert(event.target.textContent);
+  });
+</script>
+```
+
+What will the alert display if the user clicks on the word "button" within the `<span>` tags?
+
+A) Click on this
+B) Click on this button!
+C) button
+D) Nothing, an error will occur.
+
+#### `event.target` vs `event.currentTarget`
