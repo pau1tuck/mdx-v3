@@ -26,6 +26,7 @@
                 "noUnusedVariables": "warn"
             },
             "style": {
+                "noDefaultExport": "off",
                 "useNamingConvention": "warn"
             },
             "suspicious": {
